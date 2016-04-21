@@ -14,6 +14,26 @@ import GameKit
 struct MadLibDictionary {
     
     
-    let madlib1 = "g"
+    let madlib1 = ""
+    
+}
+
+
+struct MadLibQuestions {
+    var text = [String()]
+    let madLib1Q = []
+    
+}
+
+
+class Answers {
+
+    var text = [String]()
+
+    
+    
+    
+    
+
     
 }

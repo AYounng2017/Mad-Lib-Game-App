@@ -27,10 +27,16 @@
                                 <rect key="frame" x="219" y="469" width="126" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="MadLibAnswers" destination="BYZ-38-t0r" eventType="touchUpInside" id="NRE-up-86r"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="MadLibLabel" destination="eYl-PB-y6T" id="4uZ-Gh-iE6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
