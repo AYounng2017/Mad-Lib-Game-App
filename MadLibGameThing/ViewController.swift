@@ -8,18 +8,29 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var MadLibLabel: UILabel!
    let madLibLabel = MadLibQuestions()
     
     
+    @IBOutlet weak var madLibAnswer: UITextField!
+    
+    
+    
+    @IBAction func submitButton(sender: AnyObject) {
+    }
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    
+    madLibAnswer.
+    
+    
+    
     }
 
     override func didReceiveMemoryWarning() {
@@ -28,12 +39,8 @@ class ViewController: UIViewController {
     }
 
   
-    @IBAction func MadLibAnswers() {
-        
-        
-        
-        
+    
+    @IBAction func cancelButton(sender: AnyObject) {
     }
-   
 }
 
