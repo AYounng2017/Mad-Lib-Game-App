@@ -10,24 +10,46 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
 
-    @IBOutlet weak var MadLibLabel: UILabel!
-   let madLibLabel = MadLibQuestions()
+    @IBOutlet weak var questionsLabel: UILabel!
     
     
-    @IBOutlet weak var madLibAnswer: UITextField!
+    @IBOutlet weak var answerTextBox: UITextField!
+   
+    
+    
+    @IBAction func cancelButton(sender: AnyObject) {
+    }
     
     
     
-    @IBAction func submitButton(sender: AnyObject) {
+    
+    @IBAction func saveButton(sender: AnyObject) {
+    }
+    
+    
+    
+    
+    
+    
+    
+    // Text Field Delegate below. DO NOT EDIT. Closes keyboard after typing - Alex
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        answerTextBox.resignFirstResponder()
+        
+        return true
     }
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     
-    madLibAnswer.
+    answerTextBox.delegate = self
+    
     
     
     
@@ -40,7 +62,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
   
     
-    @IBAction func cancelButton(sender: AnyObject) {
-    }
+
 }
 
