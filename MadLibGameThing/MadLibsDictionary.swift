@@ -14,9 +14,23 @@ import GameKit
 struct MadLibDictionary {
     
     
-    let madlib1 = ["Your friend", "Name of friend" , "Is crying" , "A stupid reason" , "Because" , "A normal reason" , "And this friend has to fart now" , "Secret about them"]
+    let madlib1 = ["Your friend",
+                   
+                   "Name of friend",
+                   
+                   "Is crying",
+                  
+                   "A stupid reason",
+                   
+                   "Because",
+                   
+                   "A normal reason",
+                   
+                   "And this friend has to fart now",
+                  
+                   "Secret about them"]
     
-    let madlib2 = [""]
+
     
 }
 
