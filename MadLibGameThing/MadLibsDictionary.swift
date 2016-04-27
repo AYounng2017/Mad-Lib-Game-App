@@ -14,7 +14,8 @@ import GameKit
 struct MadLibDictionary {
     
     
-    let madlib1 = ""
+    let madlib1 = [""]
+    let madlib2 = [""]
     
 }
 
@@ -26,14 +27,12 @@ struct MadLibQuestions {
 }
 
 
-class Answers {
 
-    var text = [String]()
-
-    
-    
-    
-    
+var answers = [String]()
 
     
-}
+    
+    
+    
+
+    

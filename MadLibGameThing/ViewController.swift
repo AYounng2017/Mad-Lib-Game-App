@@ -24,6 +24,14 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     
     @IBAction func saveButton(sender: AnyObject) {
+        answers.append(answerTextBox.text!)
+        self.reloadInputViews()
+        
+        
+        answerTextBox.text = ""
+       
+
+        
     }
     
     
@@ -34,11 +42,16 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     // Text Field Delegate below. DO NOT EDIT. Closes keyboard after typing - Alex
     
-    func textFieldShouldReturn(textField: UITextField) -> Bool {
+    func textFieldShouldReturn(_textField: UITextField) -> Bool {
+        answers.append(answerTextBox.text!)
+        self.reloadInputViews()
+        answerTextBox.text = ""
         answerTextBox.resignFirstResponder()
         
         return true
     }
+    
+    
     
     
     
