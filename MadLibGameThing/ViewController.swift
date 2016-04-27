@@ -18,6 +18,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     
     @IBAction func cancelButton(sender: AnyObject) {
+        
+    answerTextBox.text = ""    
+        
     }
     
     
@@ -28,6 +31,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         self.reloadInputViews()
         
         
+        questionsLabel.text = MadLibDictionary.madlib1
+    
         answerTextBox.text = ""
        
 

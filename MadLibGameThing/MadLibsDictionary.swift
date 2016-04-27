@@ -14,25 +14,35 @@ import GameKit
 struct MadLibDictionary {
     
     
-    let madlib1 = ["Your friend",
+    let madlib1 = ["Your friend", // 0
                    
-                   "Name of friend",
+                   "Name of friend", // 1
                    
-                   "Is crying",
+                   "Is crying", // 2
                   
-                   "A stupid reason",
+                   "A stupid reason",   // 3
                    
-                   "Because",
+                   "Because",   // 4
                    
-                   "A normal reason",
+                   "A normal reason",   // 5
                    
-                   "And this friend has to fart now",
+                   "And this friend has to fart now",   // 6
                   
-                   "Secret about them"]
+                   "Secret about them"] // 7
+    
     
 
     
 }
+
+
+var instance1 = MadLibDictionary()
+
+MadLibDictionary
+
+
+
+
 
 
 struct MadLibQuestions {

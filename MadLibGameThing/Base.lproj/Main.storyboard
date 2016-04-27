@@ -30,7 +30,7 @@
                                     <action selector="saveButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gO7-f7-weW"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mad Lib Questions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYl-PB-y6T">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is your friends name?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYl-PB-y6T">
                                 <rect key="frame" x="19" y="157" width="561" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="561" id="Bbz-s2-Kf2"/>
