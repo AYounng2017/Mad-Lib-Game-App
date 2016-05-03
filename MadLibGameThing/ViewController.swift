@@ -24,17 +24,20 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
     
-    
+    var madLibInstance = MadLibDictionary()
+    var x = 0
     
     @IBAction func saveButton(sender: AnyObject) {
         answers.append(answerTextBox.text!)
         self.reloadInputViews()
         
         
-        questionsLabel.text = MadLibDictionary.madlib1
+        questionsLabel.text = madLibInstance.madlib1[x]
+        
     
         answerTextBox.text = ""
        
+        x = x + 1
 
         
     }
