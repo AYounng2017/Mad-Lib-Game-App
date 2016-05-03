@@ -30,25 +30,30 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBAction func saveButton(sender: AnyObject) {
         
         
-            answers.append(answerTextBox.text!)
-            self.reloadInputViews()
+        answers.append(answerTextBox.text!)
+        self.reloadInputViews()
+        
+        
+        
+        answerTextBox.text = ""
+        
+        if x == madLibInstance.madlib1.count{
+            questionsLabel.text = "Mad Lib"
             
             
+        } else {
+            questionsLabel.text = madLibInstance.madlib1[x]
             
-            answerTextBox.text = ""
             
-            if x == madLibInstance.madlib1.count{
-                questionsLabel.text = "Mad Lib"
-                
-                
-            } else {
-                questionsLabel.text = madLibInstance.madlib1[x]
-                
-                
-                x = x + 1
-                
-                
-            }
+            x = x + 1
+            
+            
+        }
+        
+        
+
+        
+        
         
         
     }
