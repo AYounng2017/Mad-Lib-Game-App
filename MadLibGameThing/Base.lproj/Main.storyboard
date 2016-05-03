@@ -18,16 +18,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Fill in blank here" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kvq-ZH-JMR">
-                                <rect key="frame" x="20" y="249" width="280" height="30"/>
-                                <color key="textColor" red="1" green="0.09640561521809532" blue="0.09484834892820504" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEN-E1-fNj">
                                 <rect key="frame" x="251" y="285" width="49" height="30"/>
                                 <state key="normal" title="Submit">
-                                    <color key="titleColor" red="1" green="0.18465970250147801" blue="0.18020517497424571" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.36295109987258911" green="0.9864998459815979" blue="0.021015089005231857" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="saveButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gO7-f7-weW"/>
@@ -39,18 +33,24 @@
                                     <constraint firstAttribute="width" constant="561" id="Bbz-s2-Kf2"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.029803084209561348" green="0.99068599939346313" blue="0.0072656976990401745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wgu-ck-xJC">
                                 <rect key="frame" x="19" y="285" width="48" height="30"/>
                                 <state key="normal" title="Cancel">
-                                    <color key="titleShadowColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.1122889444231987" green="0.99066489934921265" blue="0.0060059474781155586" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="cancelButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xSO-5U-qKG"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Fill in blank here" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kvq-ZH-JMR">
+                                <rect key="frame" x="20" y="247" width="280" height="30"/>
+                                <color key="textColor" red="0.026200588792562485" green="0.95996922254562378" blue="0.84818965196609497" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
