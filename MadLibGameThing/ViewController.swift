@@ -28,17 +28,27 @@ class ViewController: UIViewController, UITextFieldDelegate {
     var x = 0
     
     @IBAction func saveButton(sender: AnyObject) {
-        answers.append(answerTextBox.text!)
-        self.reloadInputViews()
         
         
-        questionsLabel.text = madLibInstance.madlib1[x]
-        
-    
-        answerTextBox.text = ""
-       
-        x = x + 1
-
+            answers.append(answerTextBox.text!)
+            self.reloadInputViews()
+            
+            
+            
+            answerTextBox.text = ""
+            
+            if x == madLibInstance.madlib1.count{
+                questionsLabel.text = "Mad Lib"
+                
+                
+            } else {
+                questionsLabel.text = madLibInstance.madlib1[x]
+                
+                
+                x = x + 1
+                
+                
+            }
         
     }
     
