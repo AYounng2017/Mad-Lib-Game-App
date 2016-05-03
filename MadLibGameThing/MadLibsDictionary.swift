@@ -35,8 +35,7 @@ struct MadLibDictionary {
     
 }
 
-
-var instance1 = MadLibDictionary()
+ 
 
 
 
