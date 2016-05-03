@@ -14,28 +14,54 @@ import GameKit
 struct MadLibDictionary {
     
     
-    let madlib1 = ["Your friend", // 0
-                   
-                   "Name of friend", // 1
-                   
-                   "Is crying", // 2
-                  
-                   "A stupid reason",   // 3
-                   
-                   "Because",   // 4
-                   
-                   "A normal reason",   // 5
-                   
-                   "And this friend has to fart now",   // 6
-                  
-                   "Secret about them"] // 7
+    let madlib1 = ["Type in a place", // 0
+        
+        "Type in an adjective", // 1
+        
+        "Name of female celebrity", // 2
+        
+        "Type in a body part",   // 3
+        
+        "Type in a body part",   // 4
+        
+        "Type in a human organ",   // 5
+        
+        "Type in an adjective",   // 6
+        
+        "Name of male celebrity", // 7
+        
+        "Type in an adjective", // 8
+        
+        "Type in an adjective", // 9
+        
+        "Type in a body part", // 10
+        
+        "Type in a boy part", // 11
+        
+        "Type in a Place", // 12
+        
+        "Type in a celebrity", // 13
+        
+        "Type an animal", // 14
+        
+        "Type a verb", // 15
+        
+        "Type a number", // 16
+        
+        "Type in a body part", // 17
+        
+        "Type in adjective", // 18
+        
+        "Type in adjective", // 19
+        
+        "Type in a verb",] // 20
     
     
-
+    
+    
     
 }
 
- 
 
 
 
@@ -53,12 +79,12 @@ struct MadLibQuestions {
 
 var answers = [String]()
 
-    
-    
-    
-    
 
-    
+
+
+
+
+
 
 
 
