@@ -21,7 +21,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEN-E1-fNj">
                                 <rect key="frame" x="251" y="285" width="49" height="30"/>
                                 <state key="normal" title="Submit">
-                                    <color key="titleColor" red="0.36295109987258911" green="0.9864998459815979" blue="0.021015089005231857" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.032876200973987579" green="0.93545335531234741" blue="0.92927634716033936" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="saveButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gO7-f7-weW"/>
@@ -33,12 +33,13 @@
                                     <constraint firstAttribute="width" constant="561" id="Bbz-s2-Kf2"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.029803084209561348" green="0.99068599939346313" blue="0.0072656976990401745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.0016116822371259332" green="0.87126928567886353" blue="0.99071460962295532" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wgu-ck-xJC">
                                 <rect key="frame" x="19" y="285" width="48" height="30"/>
                                 <state key="normal" title="Cancel">
+                                    <color key="titleColor" red="0.0016116822371259332" green="0.87126928567886353" blue="0.99071460962295532" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" red="0.1122889444231987" green="0.99066489934921265" blue="0.0060059474781155586" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -47,12 +48,12 @@
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Fill in blank here" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kvq-ZH-JMR">
                                 <rect key="frame" x="20" y="247" width="280" height="30"/>
-                                <color key="textColor" red="0.026200588792562485" green="0.95996922254562378" blue="0.84818965196609497" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.058437041938304901" green="0.78895306587219238" blue="0.88795077800750732" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.98560208082199097" green="0.16813883185386658" blue="0.012958374805748463" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="eYl-PB-y6T" firstAttribute="leading" secondItem="Wgu-ck-xJC" secondAttribute="leading" id="0Bc-cs-pef"/>
                             <constraint firstItem="eYl-PB-y6T" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="3" id="4qK-C4-Rzq"/>
